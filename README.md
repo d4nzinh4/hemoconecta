@@ -1,2 +1,1 @@
-# hemoconecta
-Simple website created for the "Interface Homem-Máquina" course's APS
+https://www.figma.com/design/Ln5JnJYcvHQDR8OTeVz7me?node-id=0-1
