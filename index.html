@@ -1,21 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HemoConecta</title>
-</head>
-<body>
-    <header>
-        <h1>HemoConecta</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="login.html">Logar</a></li>
-                <li><a href="registro.html">Cadastrar-se</a></li>
-            </ul>
-        </nav>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <header id="header">
+      <img
+        src="./assets/HEMOCONECTA.svg"
+        alt="logo do HemoConecta"
+        class="img-logo"
+      />
+      <h1>HemoConecta</h1>
+      <nav>
+        <ul>
+          <li><a href="#header">Home</a></li>
+          <li><a href="#sobre">Nós</a></li>
+          <li><a href="#mapa-hemocentros">Hemocentros</a></li>
+          <li><a href="login.html">Logar</a></li>
+          <li><a href="registro.html">Cadastrar-se</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <img
+        src="./assets/image 2.svg"
+        alt="duas mãos representando transfusão de sangue por amor ao próximo"
+        class="img-header"
+      />
     </header>
-    <footer></footer>
-</body>
+    <main>
+      <section id="sobre" class="about-section">
+        <h2>Sobre</h2>
+        <p>
+          O HemoConecta é uma plataforma que conecta doadores de sangue a
+          hemocentros. Através do HemoConecta, você pode encontrar hemocentros
+          próximos a você, agendar doações e receber notificações sobre
+          campanhas de doação de sangue.
+        </p>
+        <h2>Missão</h2>
+        <p></p>
+        <h2>Valores</h2>
+        <p></p>
+      </section>
+      <section id="mapa-hemocentros" class="map-section">
+        <h2>Mapa de Hemocentros</h2>
+        <p>Hemocentros próximos a você</p>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/search/hemocentros/@-3.7289974,-38.568553,13z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+    <footer id="contato">
+      <div class="contact-info">
+        <a
+          href="https://wa.me/5585989838622?text=Ol%C3%A1!%20Vim%20do%20reposit%C3%B3rio%20do%20HemoConecta!"
+          target="_blank"
+          class="contact-icon"
+          ><i class="fab fa-whatsapp"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/hemoconecta"
+          target="_blank"
+          class="contact-icon"
+          ><i class="fab fa-facebook"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/hemoconecta"
+          target="_blank"
+          class="contact-icon"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a
+          href="mailto:damarysdev@gmail.com?subject=Oferta%20de%20emprego&body=Vi%20teu%20portf%C3%B3lio%20e%20acredito%20que%20teu%20perfil%20se%20encaixa%20na%20nossa%20equipe.%20Gostaria%20de%20fazer%20parte%20do%20nosso%20time?"
+          class="contact-icon"
+          ><i class="fas fa-envelope"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
 </html>
